@@ -1,0 +1,11 @@
+<view class="all">
+  <view class="title">关于河南工业大学校园导览小程序</view>
+  <view class="model">
+    <view wx:for="{{intro}}" class="test">
+      <view class="title2">{{item.title}}</view>
+      <view style="line-height:1.2em;">
+        <text class="content">{{item.content}}</text>
+      </view>
+    </view>
+  </view>
+</view>

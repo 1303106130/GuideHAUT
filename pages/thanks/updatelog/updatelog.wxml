@@ -1,0 +1,118 @@
+<view class="cu-timeline">
+<view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v1.1.3</view>
+        <view class="cu-tag line-white">2020/6/28</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.解决了图片加载慢或无法显示的问题</view>
+        <view>2.内容优化</view>
+      </view>
+    </view>
+  </view>
+<view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v1.1.2</view>
+        <view class="cu-tag line-white">2019/09/16</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.修复了介绍页第一张图片无法显示的问题。</view>
+        <view>2.天气背景颜色根据当前天气自动调整。</view>
+        <view>3.修复了地点搜索页的搜索结果显示错乱。</view>
+        <view>4.首页小轮播，消息通知不错过。</view>
+        <view>5.更换了简介页面的手绘轮播图，感谢官网提供。</view>
+        <view>6.部分图片支持点击放大，长按可保存。</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v1.1.0</view>
+        <view class="cu-tag line-white">2019/09/10</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.新体验，再出发</view>
+        <view>2.新增更多天气数据</view>
+        <view>3.新增清除缓存功能</view>
+        <view>4.新增更新日志，可了解新功能</view>
+        <view>5.调整了"关于小程序"页面的显示</view>
+        <view>6.时间轴 By-ColorUI</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v1.0.5</view>
+        <view class="cu-tag line-white">2019/08/22</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.轮播图图片更换</view>
+        <view>2.删除"关于我们"页面</view>
+        <view>3.新增在线问路，实时交流更高效</view>
+        <view>4.调整了打赏金额，娱乐至上</view>
+        <view>4.优化了授权提示与导航</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v1.0.4</view>
+        <view class="cu-tag line-white">2019/07/22</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.新增图片可点击预览、长按保存的功能</view>
+        <view>2.新增统计浏览次数的功能</view>
+        <view>3.优化段落显示</view>
+        <view>4.删除了打赏功能的模态框</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v1.0.3</view>
+        <view class="cu-tag line-white">2019/06/22</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.修复不同手机的页面适应问题</view>
+        <view>2.修复点击定位偏离屏幕中心的问题</view>
+        <view>3.新增天气查询功能</view>
+        <view>4.增加全景校园复制链接直达</view>
+        <view>5.优化了冗余和测试代码</view>
+        <view>6.优化了路线规划多种方式的时长计算</view>
+        <view>7.更改了首页背景图片</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v1.0.2</view>
+        <view class="cu-tag line-white">2019/5/22</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.增加首页动画</view>
+        <view>2.修改了部分地点介绍，更详细</view>
+        <view>3.图片加载的速度优化</view>
+        <view>4.增加了地点搜索与发现功能</view>
+        <view>5.增加赞赏码，谢谢支持</view>
+        <view>6.增加了在线客服，实时反馈</view>
+        <view>7.优化了代码逻辑处理</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v1.0.1</view>
+        <view class="cu-tag line-white">2019/4/22</view>
+      </view>
+      <view class="margin-top-sm text-content">初次见面，请多多指教。</view>
+    </view>
+  </view>
+</view>

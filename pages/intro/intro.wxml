@@ -1,0 +1,77 @@
+<view>
+  <swiper autoplay="true" duration="1000" circular="true" indicatorDots="true" indicator-active-color="#22307c" interval="3500" style="height:500rpx">
+    <swiper-item>
+      <image mode="imageMode" bindtap='previewimg' data-src="https://gitee.com/zxin1210/Myre/raw/master/images/intro1.jpg" src="../../images/intro1.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image mode="imageMode" bindtap='previewimg' data-src="https://gitee.com/zxin1210/Myre/raw/master/images/intro2.jpg" src="http://cd7.yesapi.net/CBE51861C53ECC63FC1085114B54AC34_20200616133055_dc660681470b89b97f941e6ac21fe1af.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image mode="imageMode" bindtap='previewimg' data-src="https://gitee.com/zxin1210/Myre/raw/master/images/intro5.jpg" src="http://cd7.yesapi.net/CBE51861C53ECC63FC1085114B54AC34_20200616133125_f18fa09f2fcd186c0bd4a8d7ea5d4fc0.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image mode="imageMode" bindtap='previewimg' data-src="https://gitee.com/zxin1210/Myre/raw/master/images/intro3.jpg" src="http://cd7.yesapi.net/CBE51861C53ECC63FC1085114B54AC34_20200616133111_50cc37a3dcb303611ec76a6a86a8916f.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image mode="imageMode" bindtap='previewimg' data-src="https://gitee.com/zxin1210/Myre/raw/master/images/intro4.jpg" src="http://cd7.yesapi.net/CBE51861C53ECC63FC1085114B54AC34_20200616133118_c7c5a04a976b929626632c225e87ef06.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <view class="zim">
+    <image src="/images/hautxb.png" style="width:60rpx;height:60rpx;"></image>
+  </view>
+  <view class="zio">河南工业大学简介</view>
+  <view class="zit">Henan University of Technology
+    <image src="/images/liulan.png" style="width:40rpx;height:40rpx; margin-left:50px;"></image>
+    <text class='num'>{{motto}} </text>
+  </view>
+  <text class="wenzhang" decode="nbsp">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;河南工业大学位于河南省会郑州市，是河南省人民政府和国家粮食局共建高校；始建于1956年，先后隶属国家粮食部、商业部和国内贸易部；1959 年开展本科教育，1981 年开始硕士研究生教育，2013年开始博士研究生教育，2017年获批硕士研究生推免资格，2018年获批博士学位授予单位；1998 年划归河南省管理，河南省人民政府和国家粮食局于2010年签约共建河南工业大学。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;建校至今，学校坚持“扎根中原，立足行业，服务全国，面向世界”的办学定位，严守“育人为本、质量立校、特色发展”的办学理念，秉承“明德、求是、拓新、笃行”的校训，大力弘扬“崇尚科学、勇于探索、报国兴学、自强不息”的工大精神，凝练形成了“团结进取，务实高效”的校风、“博学奉献”的教风和“勤奋诚信”的学风。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经过历代工大人的励精图治和薪火传承，学校已经发展成为一所以工学为主，涵盖理学、经济学、管理学、法学、文学、艺术学和农学等学科协调发展的多科性大学，不仅具备完整的学士、硕士、博士三级人才培养体系，而且作为第二单位成功入选国家首批“ 2011 协同创新计划”，是教育部“中西部高校基础能力建设工程”和“卓越工程师教育培养计划”建设高校，在推动行业、区域和国家经济社会发展，实现教育振兴的过程中做出了应有贡献，在人才培养、科学研究、社会服务等方面均取得了优异成绩。
+一、师资队伍
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现有专任教师1633人，副高级以上职称教师836人，博士学位教师729人；硕士生导师513 人，博士生导师 53人；汇聚了双聘院士、长江学者、国家杰出青年科学基金获得者、“百千万人才工程”国家级人选、国务院特贴专家、教育部新世纪优秀人才、中原学者、河南省教学名师等一大批学术带头人；拥有省级及以上高层次教学、研究团队26 个。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;建校以来，学校涌现出了陈启宗、路茜玉、张根旺、周乃如、汪璠、张国贤等一大批，在粮食、磨料磨具等行业领域具有重大贡献和社会影响力的知名专家、学者，他们潜心学术，立德树人，奖掖后进，功勋卓著，为我国粮食事业、磨料磨具行业及学校发展、社会进步作出了开拓性贡献，为后继者树立了榜样。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现任教师中，有国际标准化组织食品技术委员会谷物与豆类分会主席卞科教授、国际谷物科技协会主席王凤成教授、三届奥运会田径裁判王晏教授等知名专家，还有一批专家教授担任中国粮油学会、中国粮食工程建设委员会、全国磨料磨具标准化技术委员会、中国热处理学会、中国化学会有机化学磷化学专业委员会等学术组织理事长或副理事长职务，他们在各自的专业领域和教学岗位上，教书育人，竭诚奉献，堪称楷模。
+二、学科专业
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学校长期致力于粮食产后领域的基础理论及工程技术研究，构建了集储运、加工、装备、信息、管理等于一体的完整学科体系；拥有全国最完整的粮油食品学科群和实力雄厚的超硬材料学科群；现有20 个学院， 67个本科专业，拥有3个博士学位授权一级学科，20 个硕士学位授权一级学科，7个硕士专业学位授权类别，24个省一级重点学科，“粮食产后安全及加工”学科群入选河南省首批优势特色学科建设工程；“食品科学与工程”等5个国家级特色专业、“粮食工程”等3个国家级综合改革试点专业、“食品科学与工程、粮食工程”和“计算机科学与技术”3个国家级卓越计划专业、16个省级名牌和特色专业、6 个双学位专业，学校具有同等学力申请硕士学位授予权和高校教师硕士学位授予权。
+三、人才培养
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学校面向全国招生；是国家来华留学生自主招生高校，拥有“中国政府奖学金”、“中国政府丝绸之路奖学金”和“河南省政府奖学金”培养资格；是全国硕士研究生推免高校、普通高等学校本科教学工作水平评估优秀单位；拥有“食品科学”国家级实验教学示范中心、国家级“粮油食品类工程应用型人才培养模式创新实验区”、“河南工业大学-河南中鹤纯净粉业有限公司工程实践教育中心”国家级大学生校外实践教育基地。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现有全日制在校生34000余人，其中研究生1500余人，外国留学生50余人；另有继续教育学生18000 余人；先后为国家输送了近20万名合格毕业生，粮食行业半数以上的管理精英和技术骨干均出自本校，被誉为粮食行业的“黄埔军校”。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;近五年，学生在各类竞赛中获国家级奖340项、省部级奖772项；全国硕士学位论文抽检合格率连年100%；国家“挑战杯”竞赛连续5届居全国前40名，连年位居河南省高校前列；连续两次被教育部评为“全国普通高等学校毕业生就业工作先进集体”，先后荣获“全国就业50强高校”、全国“学校心理健康教育先进集体”等多项荣誉称号，人才培养质量获得社会高度认可和评价。
+四、科学研究
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学校拥有一支实力雄厚的科研队伍，长期致力于粮食产后领域的基础理论与工程技术研究，构建了集储运、加工、装备、信息、管理等于一体科学研究体系和特色；积极服务国家战略需求和行业、地方经济社会发展，在粮食储运、仓厂建设、粮食经济与物流管理、粮食精深加工与综合利用、粮食机械、超硬材料及磨料磨具等方面取得了一批重大研究成果，有力推动了行业科技进步和社会发展，产生了显著的经济社会效益；在1978年全国科学技术大会、1986年国家科技攻关奖励大会上获国家奖励4项；近年，先后荣获国家科技进步奖10项（其中一等奖1项、二等奖7项、三等奖2项），国家教学成果二等奖2项，中国标准创新贡献一等奖1项；2017年进入中国大学科技创新竞争力百强高校。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现有小麦和玉米深加工国家工程实验室、粮食储运国家工程实验室、粮食信息处理与控制省部共建教育部重点实验室、粮食储藏与安全教育部工程研究中心、中国粮食物流研究培训中心、国家大豆改良中心精深加工研究所（郑州）等32个省部级、国家级科研平台；建有中国粮食博物馆预博馆；是国家粮食行业郑州培训基地；设有河南省高校首家院士工作站、物流研究中心、粮食经济研究中心、超硬材料及制品工程技术研究中心等14个地厅级科技平台；校内还有岩土工程研究所、物流研究所等54 个校级学术研究机构和100余个教学、科研、实习、实训平台。
+五、办学条件
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;占地总面积193.8 万平方米，建筑总面积106.2万平方米；拥有莲花街校区、嵩山路校区、中原路校区三个校区；建有高标准的教学大楼和现代化的学生公寓；是河南省高校“数字化校园”示范单位、“智慧校园”和“网络学习空间”建设试点单位。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;建有食品工程、建筑工程、物理学、化学、力学、电工电子、机械基础等各种、各类基础实验室、专业实验室、工程训练中心、实验教学示范中心、虚拟实验教学中心、本科实验教学中心和工程训练中心；配备有大批先进的实验仪器设备，教学科研仪器设备总值6.13亿元，10万元以上仪器设备759台（套）；学校图书馆是原商业部批准的“全国粮油学科文献情报中心”，藏书307.9万余册，自建粮油食品、超硬材料与磨料磨具2 个专题特色数据库；《河南工业大学学报( 自然科学版 ) 》是全国中文核心期刊和中国科技核心期刊；先进、齐全的教学科研设施，优雅宜人的校园环境，为教学、科研、管理和生活服务提供了坚实的条件基础。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作为一所办学特色鲜明的省局共建高校，如今的河南工业大学正在党的十九大精神指引下，以“实现高等教育内涵式发展，办人民满意高等教育”为宗旨，满怀信心的朝着高水平教学研究型工业大学的建设目标而努力奋斗。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（以上数据截至2018年9月30日）
+  </text>
+  <view bindtap="showConnectionAlert" class="anniu">
+    <text>校园
+全景</text>
+  </view>
+</view>
+<view class="combine-alert" style="display: {{combineAlertShowHide}};">
+  <view class="alert-container">
+    <image bindtap="hideAlert" class="close" src="../../images/close.png"></image>
+    <view class="big">
+      <view class="icon-container">
+        <image mode="widthFix" src="../../images/shangxin.png"></image>
+      </view>
+      <view class="content" style="margin-bottom: 20rpx;">
+        由于微信平台的限制，暂不支持引入第三方网页
+      </view>
+      <view class="content" style="text-align:left">
+        解决方案
+      </view>
+      <view class="sub-content">
+        <view class="sub-content-item">1.点击下方“复制全景URL”</view>
+        <view class="sub-content-item">2.打开手机浏览器,在地址栏粘贴链接</view>
+        <view class="sub-content-item">3.静待加载，祝您使用愉快</view>
+        <view class="sub-content-item">4.问题反馈：首页-更多了解-联系我们</view>
+      </view>
+      <view bindtap="copyurl" class="btn">复制全景URL</view>
+    </view>
+  </view>
+</view>

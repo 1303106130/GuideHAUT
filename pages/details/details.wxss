@@ -1,0 +1,47 @@
+.imgSwiper {
+    height: 40vh;
+}
+
+.imgSwiperItem {
+    width: 100%;
+    height: 100%;
+}
+
+.archName {
+    height: 10vh;
+    display: flex;
+    margin: auto 20rpx;
+    flex-direction: row;
+}
+
+.archNameItem {
+    margin: auto 15rpx;
+    width: 80%;
+    color: #22307c;
+    font-size: 45rpx;
+    white-space: nowrap;
+}
+
+.archNaga {
+    margin: auto 15rpx;
+    white-space: nowrap;
+}
+
+.archNaga image {
+  margin-top: 18rpx;
+    width: 60rpx;
+    height: 60rpx;
+}
+
+.archDescription {
+    background: #fff;
+    width: 85%;
+    min-height: 49vh;
+    margin: 10rpx auto;
+}
+
+.archDescription rich-text {
+    font-size: 32rpx;
+    color: #000;
+    line-height: 45rpx;
+}

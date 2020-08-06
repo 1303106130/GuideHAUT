@@ -1,0 +1,125 @@
+page {
+  --purple: #7b58b6;
+  --white: #fff;
+  font-size: 30rpx;
+}
+
+.bg-green {
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.cu-timeline>.cu-item>.content {
+  padding: 30rpx;
+  border-radius: 6rpx;
+  display: block;
+  line-height: 1.6;
+}
+
+.shadow[class*="-green"] {
+    box-shadow: -4rpx 4rpx 16rpx rgba(148, 146, 146, 0.829);
+}
+
+.cu-capsule {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.text-green, .line-green, .lines-green {
+  color: var(--green);
+}
+
+.cu-tag {
+  font-size: 24rpx;
+  vertical-align: middle;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0rpx 16rpx;
+  height: 48rpx;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  white-space: nowrap;
+}
+
+.bg-white {
+  background-color: var(--white);
+  color: var(--darkGray);
+}
+
+.cu-capsule .cu-tag {
+  margin: 0;
+}
+
+.cu-capsule {
+  display: inline-flex;
+}
+
+.cu-capsule.radius .cu-tag:first-child {
+  border-top-left-radius: 6rpx;
+  border-bottom-left-radius: 6rpx;
+}
+
+.radius {
+  border-radius: 6rpx;
+}
+
+.cu-timeline {
+  display: block;
+  background-color: var(--white);
+}
+
+.text-green, .line-green, .lines-green {
+  color: var(--purple);
+}
+
+.cu-timeline>.cu-item:not([class*="cuIcon-"])::before {
+  content: "\e763";
+}
+
+.lines-green {
+  color: var(--green);
+}
+
+.cu-timeline>.cu-item {
+  padding: 30rpx 30rpx 30rpx 120rpx;
+  position: relative;
+  display: block;
+  z-index: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.cu-timeline>.cu-item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1rpx;
+  background-color: #ddd;
+  left: 60rpx;
+  height: 100%;
+  top: 0;
+  z-index: 8;
+}
+
+.cu-timeline>.cu-item::before {
+  font-family: "cuIcon";
+  display: block;
+  position: absolute;
+  top: 36rpx;
+  z-index: 9;
+  background-color: var(--white);
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+  border: none;
+  line-height: 50rpx;
+  left: 36rpx;
+}
+
+.cu-timeline>.cu-item:not([class*="cuIcon-"])::before {
+	content: "❤";
+}

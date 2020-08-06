@@ -1,0 +1,37 @@
+<view class='container'>
+  <view class='user'>
+    <image class="userinfo-avatar" mode="cover" src="../../images/none-user.png" wx:if="{{!hasUserInfo&&canIUse}}"></image>
+    <image class="userinfo-avatar" mode="cover" src="{{userInfo.avatarUrl}}" wx:else></image>
+    <button bindgetuserinfo="getUserInfo" class="userinfo-nickname button-class" openType="getUserInfo" wx:if="{{!hasUserInfo&&canIUse}}"> 你的名片 </button>
+    <text bindgetuserinfo="getUserInfo" class="userinfo-nickname" wx:else>{{userInfo.nickName}} · {{userInfo.city}}</text>
+  </view>
+  <view class='about'>
+    <button class='item1' bindtap='a'>
+      <image class='icon' src='/images/c2.png'></image>
+      <text space='ensp'>程 序 介 绍            〉 </text>
+    </button>
+    <button class='item1' bindtap='c'>
+      <image class='icon' src='/images/c3.png'></image>
+      <text space='ensp'>更 新 日 志            〉 </text>
+    </button>
+    <button class='item1' bindtap="previewImage">
+      <image class='icon' src='/images/c8.png'></image>
+      <text space='ensp'>打 赏 支 持            〉 </text>
+    </button>
+    <button class='item1' open-type='share'>
+      <image class='icon' src='/images/c1.png'></image>
+      <text space='ensp'>分 享                  〉 </text>
+    </button>
+    <button class='item1' bindtap="onClickCacheModal">
+      <image class='icon' src='/images/c5.png'></image>
+      <text space='ensp'>清 除 缓 存            〉 </text>
+    </button>
+    <button class='item1' open-type="contact">
+      <image class='icon' src='/images/c9.png'></image>
+      <text space='ensp'>在 线 客 服            〉 </text>
+    </button>
+  </view>
+  <view style='position:absolute; bottom:20rpx;font-size:30rpx;'>
+    <text class='welcome'>Welcome</text>
+  </view>
+</view>

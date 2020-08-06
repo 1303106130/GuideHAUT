@@ -1,0 +1,31 @@
+<view class="containerc">
+  <view class="search">
+    <view class="search-icon">
+      <icon color="blue" size="16" type="search"></icon>
+    </view>
+    <view class="search-form">
+      <input style="font-size: 30rpx;" bindconfirm="inputFilter" bindfocus="inputFilter" bindinput="inputFilter" confirmType="搜索" maxlength="20" placeholder="请输入城市名，快速查询天气信息" value="{{inputText}}"></input>
+    </view>
+    <view bindtap="reset" class="search-icon">
+      <icon color="purple" size="16" type="cancel"></icon>
+    </view>
+  </view>
+  <view class="hot">
+    <view class="cities">
+      <view catchtap="choose" class="active item">
+        <image class="icon" src="/images/location_s_w.png"></image>
+        <view>定位</view>
+      </view>
+      <view catchtap="choose" class="item" data-name="{{item.name}}" hoverClass="active" wx:for="{{hotCities}}" wx:key="{{index}}">{{item.name}}</view>
+    </view>
+  </view>
+  <view class="bottom">
+    <view wx:for="{{showItems}}" wx:key="{{index}}">
+      <view class="key">{{index}}</view>
+      <view class="values">
+        <view catchtap="choose" class="value" data-name="{{item.name}}" hoverClass="hover" wx:for="{{item}}" wx:key="{{index}}">{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="empty" wx:if="{{!showItems}}">暂无城市可以选择</view>
+</view>

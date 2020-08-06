@@ -1,0 +1,117 @@
+.scrollView {
+    background-color: #22307c;
+    display: flex;
+}
+
+.hidden{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32rpx;
+}
+
+.topSwitch {
+    background-color: #22307c;
+    height: 6vh;
+    width: 1100rpx;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200rpx;
+}
+
+.pickerBranch {
+    width: 190rpx;
+    height: 6vh;
+    background-color: #22307c;
+    text-align: left;
+    position: fixed;
+    left: 0rem;
+    top: 0rpx;
+    z-index: 999;
+}
+
+.branchItem {
+    width: 100%;
+    background-color: #22307c;
+    line-height: 50rpx;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 28rpx;
+    text-align: center;
+    z-index: 1000;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+
+.topSwitchItem {
+    background-color: #22307c;
+    letter-spacing: 3rpx;
+    height: 65rpx;
+    color: #fff;
+    font-size: 30rpx;
+}
+
+.active {
+    border-bottom: solid white;
+    height: 40rpx;
+    display: inline-block;
+    border-radius: 3rpx;
+}
+
+.totalTd {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 5.2vh;
+    color: #22307c;
+    background-color: white;
+    border-bottom: 2rpx solid rgba(63,59,58,0.2);
+}
+
+.totalTd p {
+    width: 100%;
+    font-size: 28rpx;
+    margin-top: 15rpx;
+    text-align: center;
+}
+
+.buildList {
+    position: relative;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    width: 100vw;
+}
+
+.placeItem {
+    width: 300rpx;
+    height: 240rpx;
+    display: inline-block;
+    margin-left: 10rpx;
+    margin-top: 20rpx;
+}
+
+.placeItem_text {
+    text-align: center;
+    font-size: 28rpx;
+    color: #22307c;
+    margin-top: 30rpx;
+}
+
+.lbs-merchants__toggle {
+    font-size: 20rpx;
+    display: inline-block;
+}
+
+.moveSleted {
+    border-top: 5rpx solid #22307c;
+}

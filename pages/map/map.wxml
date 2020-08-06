@@ -1,0 +1,33 @@
+<view style="width: 100%;height: 100%;overflow-x: hidden;overflow-y: hidden;">
+    <view class="scrollView">
+        <scroll-view scrollX="true">
+            <view class="topSwitch">
+                <view class="pickerBranch">
+                    <picker bindchange="bindPickerBranch" class="branchItem" range="{{branchCampus}}" value="{{branchCampusValue}}">
+            {{branchCampus[branchCampusValue]}} ▼
+          </picker>
+                </view>
+                <label bindtap="changeTap" class="topSwitchItem{{isSelectedArchType==index?' active':''}}" id="{{index}}" wx:for="{{archData}}" wx:key="id">{{item.build}}</label>
+            </view>
+        </scroll-view>
+    </view>
+    <map bindcontroltap="controltap" bindmarkertap="markertap" bindregionchange="regionchange" controls="{{controls}}" enable3D="true" enableOverlooking="true" enableRotate="true" includePoints="{{archData[isSelectedArchType].data}}" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{archData[isSelectedArchType].data}}" scale="{{archData[isSelectedArchType].scale}}" showCompass="true" showLocation="{{isLoaction?'true':'false'}}" style="width:100%;height:{{fullScreen?88:63.8}}vh" subkey="YZMBZ-PZVWQ-PIZ5O-GPMQY-ET2GJ-FAF62"></map>
+    <view bindtap="clickBtn" class="totalTd">
+        <p>共有 {{archData[isSelectedArchType].data.length}}个 {{archData[isSelectedArchType].build}}
+      <view class="lbs-merchants__toggle iconfont {{isHidden?'icon-spread-down':'icon-spread-up'}}"><text space="emsp"> ⇅</text></view>
+        </p>
+    </view>
+    <view class="buildList" hidden="{{!isHidden}}">
+        <scroll-view scrollX scrollLeft="{{scrollLeft}}" scrollWithAnimation="true" style="height:{{fullScreen?0:24}}vh;width:100%;white-space:nowrap;">
+            <navigator class="placeItem" hoverClass="none" url="/pages/details/details?tid={{isSelectedArchType}}&bid={{index}}&branchNum={{0}}" wx:for="{{archData[isSelectedArchType].data}}" wx:key="id">
+                <view class="{{isSelectedArch-1==index?'moveSleted':''}}" style="width: 270rpx;height: 180rpx;margin:0 auto;">
+                <text wx:if="{{hidden}}" class="hidden">图片加载中···</text>
+                    <image mode="scaleToFill" bindload="tohidden" src="{{item.images[0]}}" style="width: 270rpx;height: 180rpx"></image>
+                </view>
+                <view class="placeItem_text">
+                    <text>{{item.name}}</text>
+                </view>
+            </navigator>
+        </scroll-view>
+    </view>
+</view>

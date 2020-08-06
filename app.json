@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/weather/weather",
+    "pages/weather/chooseCity/chooseCity",
+    "pages/thanks/updatelog/updatelog",
+    "pages/thanks/intro/intro",
+    "pages/intro/intro",
+    "pages/thanks/thanks",
+    "pages/map/map",
+    "pages/details/details",
+    "pages/navigation_walk/navigation",
+    "pages/search/search",
+    "pages/inputtips/input",
+    "pages/search-position/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#22307c",
+    "navigationBarTitleText": "河南工业大学",
+    "navigationBarTextStyle": "white"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息仅用于设备定位与路线规划等服务"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

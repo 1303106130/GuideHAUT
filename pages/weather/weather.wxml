@@ -1,0 +1,54 @@
+<view class="containerw"style="background:{{bgstyle}}">
+<view class="topinfo">
+  <text style="font-size: 25rpx;">更新时间：{{updateTime}}</text>
+  <text  bindtap="city" style="font-size:32rpx;">⇌ 切换城市</text>
+  </view>
+  <text style="width:100%; font-size:150rpx;">{{nowWeather.tmp}}</text>
+  <text style="font-size:50rpx;position:relative;top:-30px;">℃</text>
+  <view>{{nowWeather.cond_txt}}</view>
+  <view class="now">
+    <text>{{airQuality.qlty}} · {{airQuality.aqi}}</text>
+    <text>|</text>
+    <text>主要污染物：{{airQuality.main}}</text>
+  </view>
+  <view class="fWeather">
+    <view class="fWeather_aDay">
+      <view class="item1" wx:for="{{hourlyWeather}}" wx:key="{{index}}">
+        <text class="date paddingB">{{item.time}}</text>
+        <view style="width:100%;height:1rpx;background:#8CBAD4;"></view>
+        <text class="paddingB">{{item.tmp}}℃</text>
+        <view class="paddingB">
+          <image mode="widthFix" src="../../images/{{item.cond_code}}.png"></image>
+        </view>
+        <text class="paddingB">{{item.cond_txt}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="fWeather">
+    <view class="fWeather_aDay">
+      <view class="item2" wx:for="{{day7Weather}}" wx:key="{{index}}">
+        <view class="date paddingB">{{item.date}}</view>
+        <view class="paddingB">{{item.tmp_max}}~{{item.tmp_min}}℃</view>
+        <view class="paddingB">
+          <text>{{item.cond_txt_d}}</text>
+          <image mode="widthFix" src="../../images/{{item.cond_code_d}}.png"></image>
+        </view>
+        <view class="paddingB">{{item.wind_dir}}{{item.wind_sc}}级</view>
+      </view>
+    </view>
+  </view>
+  <view class="today">
+    <view class="today_weather" wx:for="{{wertherObj.key}}" wx:key="{{index}}">
+      <view>{{wertherObj.val[item]}}</view>
+      <view>{{nowWeather[item]}}</view>
+    </view>
+  </view>
+  <view class="life">
+    <view bindtap="showLifeStyle" class="life_style" data-brf="{{item.brf}}" data-text="{{item.txt}}" wx:for="{{lifeStyle}}" wx:key="{{index}}">
+      <view class="life_icon">{{item.type_text}}
+        <image src="../../images/{{item.type}}.png"></image>
+      </view>
+      <view>{{item.brf}}</view>
+    </view>
+  </view>
+</view>

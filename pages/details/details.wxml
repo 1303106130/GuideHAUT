@@ -1,0 +1,18 @@
+<view style="overflow:scroll">
+    <swiper autoplay="1" class="imgSwiper" duration="500" circular = "true" indicatorActiveColor="#22307c" indicatorDots="arching.images.length==1?false:true" interval="3000">
+        <swiper-item wx:for="{{arching.images}}" wx:key="*this">
+            <image class="imgSwiperItem" src="{{arching.images[index]}}"></image>
+        </swiper-item>
+    </swiper>
+    <view class="archName">
+        <view class="archNameItem">{{arching.name}}</view>
+        <navigator class="archNaga" hoverClass="none" url="/pages/navigation_walk/navigation?latitude={{arching.latitude}}&longitude={{arching.longitude}}&name={{arching.name}}">
+            <image src="../../images/daohang.png"></image>
+        </navigator>
+    </view>
+    <view class="archDescription">
+        <view class="archDescriptionItm">
+            <rich-text word-break:break-all nodes="{{arching.description}}"></rich-text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,30 @@
+<view class="search">
+    <view class="search-icon">
+        <icon color="blue" size="16" type="search"></icon>
+    </view>
+    <view class="search-form">
+        <form>
+            <input bindinput="bindSearchInput" name="search" placeholder="请输入地点关键字" style="font-size: 30rpx;" type="text" value="{{keyword}}"></input>
+        </form>
+    </view>
+    <view bindtap="reset" class="search-icon">
+        <icon color="purple" size="16" type="cancel"></icon>
+    </view>
+</view>
+<view class="showinfo">
+<view class="building-item" wx:for="{{showData}}" wx:key="name">
+    <view style="height:100%; display: flex;">
+        <navigator class="img" hoverClass="none" url="/pages/details/details?tid={{item.tid}}&bid={{item.bid}}&branchNum={{0}}">
+            <image mode="aspectFill" src="{{item.images[0]}}"></image>
+            <view class="item">
+                <view class="itemName">
+          {{item.name}}
+        </view>
+            </view>
+        </navigator>
+        <navigator class="text" hoverClass="none" url="/pages/navigation_walk/navigation?latitude={{item.latitude}}&longitude={{item.longitude}}&name={{item.name}}">
+            <image src="../../images/daohang.png"></image>
+        </navigator>
+    </view>
+</view>
+</view>

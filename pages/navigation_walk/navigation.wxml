@@ -1,0 +1,18 @@
+<view class="map_box">
+    <map id="navi_map" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" polyline="{{polyline}}" scale="16"></map>
+</view>
+<view class="text_box">
+  <view class="text">{{distance}}</view>
+    <view class="text" wx:if="{{walkTime&&rideTime}}">
+    {{walkTime}} {{rideTime}}
+    </view>
+    <view class="text" wx:if="{{!walkTime&&rideTime}}">
+    不建议步行，{{rideTime}}
+    </view>
+    <view class="text" wx:if="{{!walkTime&&!rideTime}}">
+    提示：距离太远 无法规划路线
+    </view>
+     <view class="text">{{drive}}{{driveTime}}</view>
+  <view class="weather" bindtouchstart="goDetail">天气</view>
+  <view class="guide" bindtouchstart="goGuide">导航</view>
+</view>

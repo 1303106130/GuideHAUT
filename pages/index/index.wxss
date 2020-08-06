@@ -1,0 +1,89 @@
+.logo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.map-guide {
+    margin-top: 20rpx;
+    z-index: 10;
+}
+
+@keyframes scaleDraw {
+    0% {
+        transform: scale(0.75);
+    }
+    25% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.75);
+    }
+    75% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.75);
+    }
+}
+
+.home-navigator {
+    margin-top: 85rpx;
+    margin-right: 13rpx;
+    border-radius: 20rpx;
+    background-color: rgba(109, 85, 196, 0.5);
+    z-index: 10;
+    -webkit-animation: scaleDraw 5s ease-in-out infinite;
+}
+
+.home-guide {
+    margin-top: 80rpx;
+    margin-right: 13rpx;
+    border-radius: 20rpx;
+    background-color: rgba(109, 85, 196, 0.5);
+    z-index: 10;
+    -webkit-animation: scaleDraw 8s ease-in-out infinite;
+}
+
+.home-about {
+    margin-top: 80rpx;
+    margin-right: 13rpx;
+    border-radius: 20rpx;
+    background-color: rgba(109, 85, 196, 0.5);
+    z-index: 10;
+    -webkit-animation: scaleDraw 7s ease-in-out infinite;
+}
+
+.cover-home-navigator {
+    width: 180rpx;
+    height: 180rpx;
+    vertical-align: top;
+}
+
+.info-home-navigator {
+    display: inline-block;
+    width: 180rpx;
+    height: 180rpx;
+    text-align: center;
+}
+
+.tip-home-navigator {
+    color: rgb(171, 217, 247);
+    font-size: 25rpx;
+    display: block;
+    margin-right: 5rpx;
+    margin-top: 50rpx;
+}
+
+.title-home-navigator {
+    color: rgb(171, 217, 247);
+    font-size: 32rpx;
+    margin-right: 5rpx;
+    margin-top: 22rpx;
+}
+
+.swiperitem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

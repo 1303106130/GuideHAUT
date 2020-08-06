@@ -1,0 +1,39 @@
+.all{
+  width: 88%;
+  height: 500px;
+  margin: 40px auto;
+  padding-top: 20px;
+  border-radius: 10px; 
+  box-shadow: 0rpx 8rpx 40rpx rgba(0, 0, 0, 0.5);
+  overflow: scroll;
+}
+
+.model{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.test{
+  width: 300px;
+  /* height: 120px; */
+
+  margin-top: 10px;
+}
+
+.title{
+color: #8b87ab;
+ 
+  text-align: center;
+}
+
+.title2{
+   color: #8799ab;
+  font-size: 90%;
+}
+.content{
+  margin-left: 30px;
+  white-space:pre-line;
+  font-size: 80%;
+  color: #555555;
+}

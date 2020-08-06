@@ -1,0 +1,32 @@
+<view class="container">
+  <image class="logo" src="../../images/bg.jpg" style="height:{{height}}px"></image>
+  <view bindtap="gotoIntro" class="home-navigator">
+    <view class="info-home-navigator">
+      <text class="tip-home-navigator">Intro</text>
+      <text class="title-home-navigator">学校介绍</text>
+    </view>
+  </view>
+  <view bindtap="gotoGuide" class="home-guide">
+    <view class="info-home-navigator">
+      <text class="tip-home-navigator">Guide</text>
+      <text class="title-home-navigator">游览校园</text>
+    </view>
+  </view>
+  <view bindtap="gotoAbout" class="home-about">
+    <view class="info-home-navigator">
+      <text class="tip-home-navigator">More</text>
+      <text class="title-home-navigator">更多了解</text>
+    </view>
+  </view>
+  <swiper autoplay="true" vertical="true" circular="true" duration="1000" interval="3500" style="width:90%;height:70rpx;position:fixed;bottom:14rpx;">
+  <swiper-item class="swiperitem">
+      <view bindtap="gotoweather" style="margin:0 auto;font-size:32rpx;">⛅ 天气早知道</view>
+    </swiper-item>
+    <swiper-item  class="swiperitem">
+      <view bindtap="gotomessage" style="margin:0 auto;font-size:32rpx;">💬 更新日志</view>
+    </swiper-item>
+    <swiper-item  class="swiperitem">
+      <view bindtap="gotothanks" style="font-size:32rpx;">💴 免费服务，欢迎打赏</view>
+    </swiper-item>
+  </swiper>
+</view>

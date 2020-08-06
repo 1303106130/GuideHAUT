@@ -1,0 +1,141 @@
+page {
+    background-color: #08C4F5;
+    background: linear-gradient(225deg,rgb(180, 180, 180),rgb(197, 197, 197),rgb(216, 216, 216),#d6d6d6);
+}
+
+.topinfo{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerw {
+    height: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    position: relative;
+
+}
+
+.today {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgba(0,0,0,.2);
+    margin-bottom: 20rpx;
+    font-size: 30rpx;
+    border-radius: 8rpx;
+}
+
+.today .today_weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 120rpx;
+    width: 25%;
+    border-right: 1rpx solid #529CCE;
+    border-bottom: 1rpx solid #529CCE;
+    box-sizing: border-box;
+}
+
+.today .today_weather:nth-child(4n){
+    border-right: none;
+}
+
+.today .today_weather:nth-child(n+9){
+    border-bottom: none;
+}
+
+.now {
+    margin-top: 300rpx;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20rpx;
+}
+
+.fWeather .fWeather_aDay {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 30rpx;
+    background: rgba(0,0,0,.2);
+    margin: 10rpx 0;
+    border-radius: 8rpx;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.fWeather .item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 120rpx;
+    flex-shrink: 0;
+}
+.fWeather .item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 200rpx;
+    flex-shrink: 0;
+}
+
+.fWeather .paddingB {
+    padding-bottom: 10rpx;
+    margin-top: 10rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fWeather .paddingB image {
+    width: 60rpx;
+    margin-left: 5rpx;
+}
+.life {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgba(0,0,0,.2);
+    margin-bottom: 20rpx;
+    font-size: 30rpx;
+    border-radius: 8rpx;
+}
+
+.life .life_style {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 140rpx;
+    width: 25%;
+    border-right: 1rpx solid #558BD1;
+    border-bottom: 1rpx solid #558BD1;
+    box-sizing: border-box;
+}
+
+.life .life_style:nth-child(4n) {
+    border-right: none;
+}
+
+.life .life_style:nth-child(n+9) {
+    border-bottom: none;
+}
+
+.life_icon {
+    font-size: 25rpx;
+}
+
+.life_icon image {
+    height: 40rpx;
+    width: 40rpx;
+    margin-left: 10rpx;
+    position: relative;
+    top: 10rpx;
+}
